@@ -1,35 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - Christian Rasy</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Christian Rasy - Portfolio</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Playfair Display', serif; }
+</style>
+
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
-  <header class="text-center py-10 bg-white shadow-md">
+<body class="bg-gray-900 text-gray-200">
+  <header class="text-center py-10 bg-gray-800 shadow-md">
     <h1 class="text-3xl font-bold">Projects</h1>
     <nav class="mt-4 space-x-4">
-      <a href="index.html" class="text-blue-500 hover:underline">Home</a>
-      <a href="about.html" class="text-blue-500 hover:underline">About</a>
-      <a href="contact.html" class="text-blue-500 hover:underline">Contact</a>
+      <a href="index.html" class="text-indigo-400 hover:underline">Home</a>
+      <a href="about.html" class="text-indigo-400 hover:underline">About</a>
+      <a href="contact.html" class="text-indigo-400 hover:underline">Contact</a>
     </nav>
   </header>
-  <main class="p-8 max-w-4xl mx-auto">
-    <h2 class="text-2xl font-semibold mb-4">Travels</h2>
-    <ul class="list-disc ml-6 mb-8">
-      <li>Bucarest</li>
-      <li>Malta</li>
-      <li>Nice and Monaco</li>
-      <li>Albania</li>
-      <li>Madrid</li>
-      <li>Siena</li>
-    </ul>
-    <h2 class="text-2xl font-semibold mb-4">Portraits</h2>
-    <ul class="list-disc ml-6">
-      <li>The Original Sin</li>
-      <li>The Man Behind The Mask</li>
-    </ul>
+  <main class="p-8 max-w-6xl mx-auto space-y-12">
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Travels</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="hover:scale-105 transition transform duration-300">
+          <img src="https://placehold.co/600x400?text=Bucarest" alt="Bucarest" class="rounded-xl shadow-md">
+          <p class="mt-2 text-center">Bucarest</p>
+        </div>
+        <div class="hover:scale-105 transition transform duration-300">
+          <img src="https://placehold.co/600x400?text=Malta" alt="Malta" class="rounded-xl shadow-md">
+          <p class="mt-2 text-center">Malta</p>
+        </div>
+        <div class="hover:scale-105 transition transform duration-300">
+          <img src="https://placehold.co/600x400?text=Nice+and+Monaco" alt="Nice and Monaco" class="rounded-xl shadow-md">
+          <p class="mt-2 text-center">Nice and Monaco</p>
+        </div>
+        <div class="hover:scale-105 transition transform duration-300">
+          <img src="https://placehold.co/600x400?text=Albania" alt="Albania" class="rounded-xl shadow-md">
+          <p class="mt-2 text-center">Albania</p>
+        </div>
+        <div class="hover:scale-105 transition transform duration-300">
+          <img src="https://placehold.co/600x400?text=Madrid" alt="Madrid" class="rounded-xl shadow-md">
+          <p class="mt-2 text-center">Madrid</p>
+        </div>
+        <div class="hover:scale-105 transition transform duration-300">
+          <img src="https://placehold.co/600x400?text=Siena" alt="Siena" class="rounded-xl shadow-md">
+          <p class="mt-2 text-center">Siena</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Portraits</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="hover:scale-105 transition transform duration-300">
+          <img src="https://placehold.co/600x400?text=The+Original+Sin" alt="The Original Sin" class="rounded-xl shadow-md">
+          <p class="mt-2 text-center">The Original Sin</p>
+        </div>
+        <div class="hover:scale-105 transition transform duration-300">
+          <img src="https://placehold.co/600x400?text=The+Man+Behind+The+Mask" alt="The Man Behind The Mask" class="rounded-xl shadow-md">
+          <p class="mt-2 text-center">The Man Behind The Mask</p>
+        </div>
+      </div>
+    </section>
   </main>
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    © 2025 Christian Rasy. All rights reserved.
+  </footer>
 </body>
 </html>
