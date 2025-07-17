@@ -1,34 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Christian Rasy - Portfolio</title>
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-<style>
-  body { font-family: 'Playfair Display', serif; }
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christian Rasy - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg-gray-900 text-gray-200">
-  <header class="text-center py-16 bg-gray-800 shadow-md">
-    <h1 class="text-4xl font-bold">Christian Rasy – Portfolio</h1>
-    <p class="text-lg mt-4 italic text-gray-400">"Every corner of the world can tell a story. Photographer and Traveller."</p>
-    <nav class="mt-6 space-x-4">
-      <a href="index.html" class="text-indigo-400 hover:underline">Home</a>
-      <a href="about.html" class="text-indigo-400 hover:underline">About</a>
-      <a href="projects.html" class="text-indigo-400 hover:underline">Projects</a>
-      <a href="contact.html" class="text-indigo-400 hover:underline">Contact</a>
-    </nav>
+<body>
+  <header>
+    <h1>Christian Rasy - Portfolio</h1>
+    <p>Every corner of the world can tell a story. Photographer and Traveller.</p>
   </header>
-  <main class="p-8 text-center">
-    <h2 class="text-2xl mb-4">Welcome to my portfolio</h2>
-    <p>This is where I showcase my travels and portraits through photography.</p>
+  <main>
+    <section class="gallery">
+      <h2>Travels</h2>
+      <div class="grid">
+        <a href="bucarest.html"><img src="progetti/travels/bucarest/bucarest1.jpg" alt="Bucarest" /></a>
+        <a href="malta.html"><img src="progetti/travels/malta/malta1.jpg" alt="Malta" /></a>
+        <a href="nice-and-monaco.html"><img src="progetti/travels/nice-and-monaco/nice-and-monaco1.jpg" alt="Nice and Monaco" /></a>
+        <a href="albania.html"><img src="progetti/travels/albania/albania1.jpg" alt="Albania" /></a>
+        <a href="madrid.html"><img src="progetti/travels/madrid/madrid1.jpg" alt="Madrid" /></a>
+        <a href="siena.html"><img src="progetti/travels/siena/siena1.jpg" alt="Siena" /></a>
+      </div>
+
+      <h2>Portraits</h2>
+      <div class="grid">
+        <a href="the-original-sin.html"><img src="progetti/portraits/the-original-sin/the-original-sin1.jpg" alt="The Original Sin" /></a>
+        <a href="the-man-behind-the-mask.html"><img src="progetti/portraits/the-man-behind-the-mask/the-man-behind-the-mask1.jpg" alt="The Man Behind The Mask" /></a>
+        <a href="medusas-tale.html"><img src="progetti/portraits/medusas-tale/medusas-tale1.jpg" alt="Medusa's Tale" /></a>
+      </div>
+    </section>
   </main>
-  <footer class="text-center py-6 text-gray-500 text-sm">
-    © 2025 Christian Rasy. All rights reserved.
-  </footer>
 </body>
 </html>
